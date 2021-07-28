@@ -4,4 +4,29 @@
 @import "./base/reset.css";
 
 
-@import "./components/buttons.css"
+@import "./components/buttons.css";
+
+@import "./components/layouts.css";
+
+
+/*
+<!--HEADER START-->
+<!--HEADER END-->
+<!--LEADING START-->
+<!--LEADING END-->
+<!--WHAT WE DO START-->
+<!--WHAT WE DO END-->
+<!--VIDEO START-->
+<!--VIDEO END-->
+<!--PRICING START-->
+<!--PRICING END-->
+<!--everything START-->
+<!--everything END-->
+<!--NEWS START-->
+<!--NEWS END-->
+<!--PLACE START-->
+<!--PLACE END-->
+<!--FOOTER START-->
+<!--FOOTER END-->
+
+*/
