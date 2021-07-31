@@ -1,6 +1,3 @@
-/*dropdown button
-*/
-
 .dropbtn {
     background-color: honeydew;
     color: indigo;
