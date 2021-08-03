@@ -17,18 +17,22 @@ function myFunction()
 
 //dropdown buttons
 
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
 function myFunction() {
-    document.getElementById("dropdown").classList.toggle("show");
-    window.onclick = function(event) {
-        if(!event.target.matches('.dropbtn')) {
-            var dropdown = document.getElementsByClassName("dropdown-content");
-            var i;
-            for (i = 0; i< dropdown.length; i++) {
-                var openDopdown = dropdowns[i]; 
-                if (openDropdown.classList.contains('show')){
-                    openDopdown.classList.remove('show');
-                }
-            }
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
         }
+      }
     }
-}
+  }
