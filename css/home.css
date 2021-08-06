@@ -43,3 +43,9 @@
 .sticky + .content{
     padding-top: 10px;
 }
+
+.Logo {
+    width: 804px;
+    height: 80px;
+    float: left;
+}
