@@ -9,7 +9,7 @@
 
 This project is for educational porpuses only.
 
-Site published at: 
+Site published at: https://jaroslavstanull.github.io/Landrick/
 
 Design: https://shreethemes.in/landrick/layouts/index-business.html
 
