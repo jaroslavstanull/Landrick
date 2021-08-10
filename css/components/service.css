@@ -1,0 +1,23 @@
+.service {
+    padding: 5px;
+    margin: 10px;
+    text-align: left;
+}
+
+.textstr {
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 40px;
+}
+
+.start {
+
+    margin-top: -150px;
+}
+
+.fa {
+    color: blue !important;
+}

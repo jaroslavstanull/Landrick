@@ -62,4 +62,7 @@
 
     .fabtn{
       float: right;
+      background-color: gray;
+      border-radius: 50%;
+      border: gray;
     }
